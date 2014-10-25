@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="UIL.Main" %>
+
+<%@ Register Src="~/uc/header.ascx" TagPrefix="uc1" TagName="header" %>
+<%@ Register Src="~/uc/footer.ascx" TagPrefix="uc2" TagName="footer" %>
+<%@ Register Src="~/uc/navbar.ascx" TagPrefix="uc1" TagName="navbar" %>
+
+
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Hamptons</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		
+	<!-- link css -->
+	<link rel="stylesheet" href="content/bootstrap/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="content/bootstrap/bootstrap.css.map" type="text/css" />
+	<link rel="stylesheet" href="content/datepicker/css/datepicker.css" type="text/css" />
+	<link rel="stylesheet" href="content/style.css" type="text/css" />
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+
+	<!--[if lt IE 9]>
+	
+	    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	
+	    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	
+	<![endif]-->
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="body-back">
+    <uc1:header runat="server" ID="header" />
+    <div class="container">
+        <uc1:navbar runat="server" ID="navbar" />
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        <uc2:footer runat="server" ID="footer" />
+    </div>
+</body>
+</html>
