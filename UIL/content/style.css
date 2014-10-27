@@ -1183,6 +1183,9 @@ input:-ms-input-placeholder {
  text-align: left;
 }
 
+.btn-home-search {
+    width: 34px;
+}
 /* media queries */
 
 @media(min-width: 992px) and (max-width: 1200px){
@@ -1321,7 +1324,7 @@ input:-ms-input-placeholder {
 		font-size: 1.1em;
 	
 		text-align: center;
-}
+    }
 	
 	div.brand-txt>p {
 		font-size: 0.9em;

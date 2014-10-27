@@ -41,7 +41,7 @@ $(document).ready(function(){
 	});
 	
 	//check all checkboxes 
-	 $(document).on('click', '#east-hampton-area', function(){
+	 $(document).on('click', '#ContentPlaceHolder1_EastHamptonArea', function(){
 	  if(this.checked == true){
 	   $('.chk-bx-all').prop('checked', true);
 	  }

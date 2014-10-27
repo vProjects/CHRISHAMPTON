@@ -11,5 +11,8 @@
 <script src="../scripts/bootstrap/bootstrap.js"></script>
 <script src="../scripts/datepicker/bootstrap-datepicker.js"></script>
 <script src="../scripts/bootstrap/bootstrap-hover-dropdown.min.js"></script>
+<script src="../scripts/jssor.core.js"></script>
+<script src="../scripts/jssor.slider.js"></script>
+<script src="../scripts/jssor.utils.js"></script>
+<script src="../scripts/coustom-slider.js"></script>
 <script src="../scripts/custom.js"></script>
-		
