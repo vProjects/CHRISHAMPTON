@@ -1,0 +1,50 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MainSearch.master.cs" Inherits="UIL.MainSearch" %>
+
+<%@ Register Src="~/uc/header-dashboard.ascx" TagPrefix="uc1" TagName="headerdashboard" %>
+<%@ Register Src="~/uc/footer.ascx" TagPrefix="uc1" TagName="footer" %>
+<%@ Register Src="~/uc/navbar1.ascx" TagPrefix="uc1" TagName="navbar1" %>
+
+
+
+
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Hamptons</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		
+	<!-- link css -->
+	<link rel="stylesheet" href="content/bootstrap/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="content/bootstrap/bootstrap.css.map" type="text/css" />
+	<link rel="stylesheet" href="content/datepicker/css/datepicker.css" type="text/css" />
+    <link href="content/coustom-slider.css" rel="stylesheet" />
+	<link rel="stylesheet" href="content/style.css" type="text/css" />
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+
+	<!--[if lt IE 9]>
+	
+	    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	
+	    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	
+	<![endif]-->
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <uc1:headerdashboard runat="server" ID="headerdashboard" />
+        <div class="container">
+            <uc1:navbar1 runat="server" ID="navbar1" />
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+            </asp:ContentPlaceHolder>
+            <uc1:footer runat="server" ID="footer" />
+        </div>
+        
+    </form>
+</body>
+</html>

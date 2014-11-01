@@ -1,7 +1,12 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main2.Master.cs" Inherits="UIL.Main" %>
 
-<%@ Register Src="~/uc/footer.ascx" TagPrefix="uc2" TagName="footer" %>
 <%@ Register Src="~/uc/header-dashboard.ascx" TagPrefix="uc2" TagName="headerdashboard" %>
+<%@ Register Src="~/uc/right-navbar.ascx" TagPrefix="uc2" TagName="rightnavbar" %>
+<%@ Register Src="~/uc/navbar2.ascx" TagPrefix="uc2" TagName="navbar2" %>
+<%@ Register Src="~/uc/footer.ascx" TagPrefix="uc2" TagName="footer" %>
+
+
+
 
 
 
@@ -32,10 +37,15 @@
 <body class="body-back">
     <uc2:headerdashboard runat="server" ID="headerdashboard" />
     <div class="container">
-        <div class="container">
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-        
-            </asp:ContentPlaceHolder>
+        <div class="row">
+            <uc2:rightnavbar runat="server" id="rightnavbar" />
+            <div class="col-sm-9 col-xs-12" id="second-col">
+                <uc2:navbar2 runat="server" ID="navbar2" />
+                <!-- content for only right section will be placed here -->
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+                </asp:ContentPlaceHolder>
+            </div>
         </div>
         <uc2:footer runat="server" ID="footer" />
     </div>

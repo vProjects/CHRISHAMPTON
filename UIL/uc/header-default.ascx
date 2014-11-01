@@ -12,7 +12,7 @@
 		<span class="icon-bar"></span>
 		<span class="icon-bar"></span>
 		</button>
-		<a class="navbar-brand navbar-brand-custom" href="index.html">
+		<a class="navbar-brand navbar-brand-custom" href="index.aspx">
 		<img src="images/logo.png" alt="Logo" class="brand-img" />
 		</a>
 	</div>
@@ -29,7 +29,7 @@
 		<!-- <li><a href="#"><span>888-555-124</span></a></li>
 		<li><a href="#"><span>E</span>mail <span>HRT</span></a></li>
 		<li><a href="#"><span>A</span>bout <span>HRT</span></a></li> -->
-		<li class="btm-lnks-nav"><a href="#"><span>M</span>y <span>D</span>ashboard</a></li>
+		<li class="btm-lnks-nav"><a href="../dashboard.aspx"><span>M</span>y <span>D</span>ashboard</a></li>
 		<li class="btm-lnks-nav"><a href="../brokerage-info.aspx"><span>B</span>rokerages</a></li>
 		<li class="btm-lnks-nav"><a href="../sales-search.aspx"><span>S</span>earch</a></li>
             

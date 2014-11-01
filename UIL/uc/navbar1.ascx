@@ -3,7 +3,7 @@
 	<div class="col-sm-12 col-xs-12" id="second-col">
 		<nav class="navbar navbar-default coustom-nav" id="rt-nav-dash">
 			<div class="dashboard-menu pull-left right-nav">
-				<a href="#">HOME</a>
+				<a href="dashboard.aspx">HOME</a>
 			</div>							
 			<div class="dashboard-menu pull-left right-nav">
 				<li class="dropdown">

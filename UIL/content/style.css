@@ -1152,7 +1152,7 @@ input:-ms-input-placeholder {
 	margin: 0 auto;
 	padding: 0.5% 3% 0% 3%;
 	background-color: #142d54;
-	color: #FFFFFF;
+	color: #FFFFFF !important;
 	margin-top: 5px;
 }
 
@@ -1185,6 +1185,14 @@ input:-ms-input-placeholder {
 
 .btn-home-search {
     width: 34px;
+}
+
+.font_black {
+    color: #000 !important;
+}
+
+.min_width_115 {
+    min-width: 115px;
 }
 /* media queries */
 

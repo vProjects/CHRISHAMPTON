@@ -10,7 +10,7 @@
 		<span class="icon-bar"></span>
 		<span class="icon-bar"></span>
 		</button>
-		<a class="navbar-brand navbar-brand-custom" href="index.html">
+		<a class="navbar-brand navbar-brand-custom" href="index.aspx">
 		<img src="images/logo.png" alt="Logo" class="brand-img" />
 		</a>
 	</div>
@@ -18,7 +18,7 @@
 	<!-- Collect the nav links, forms, and other content for toggling -->
 	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		<ul class="nav navbar-nav realtime">
-		<a href="index.html"><div class="brand-txt">
+		<a href="index.aspx"><div class="brand-txt">
 		    <h1><span>H</span>amptons <span>R</span>eal<b class="timetext">T</b>ime</h1>
 		    <p><span>T</span>he <span>C</span>omplete <span>R</span>eal <span>E</span>state <span>S</span>ource</p>
 		</div></a>		      	
